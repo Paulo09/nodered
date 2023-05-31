@@ -1,0 +1,21 @@
+[
+    {
+        "id": "98afd349fcb0d697",
+        "type": "function",
+        "z": "1e28b70e014bb3c6",
+        "name": "function 1",
+        "func": "msg.topic = Math.random()*10;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 540,
+        "y": 200,
+        "wires": [
+            [
+                "ff0aca701c876837"
+            ]
+        ]
+    }
+]
