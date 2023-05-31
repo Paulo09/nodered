@@ -1,0 +1,61 @@
+[
+    {
+        "id": "1e28b70e014bb3c6",
+        "type": "tab",
+        "label": "Aula01",
+        "disabled": false,
+        "info": "Exemplo da Aula 01 - Node Red",
+        "env": []
+    },
+    {
+        "id": "f8dde4e46f050439",
+        "type": "inject",
+        "z": "1e28b70e014bb3c6",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "msg",
+                "v": "Mensagem Paulo",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "mensagem topic",
+        "payload": "",
+        "payloadType": "date",
+        "x": 240,
+        "y": 60,
+        "wires": [
+            [
+                "ff0aca701c876837"
+            ]
+        ]
+    },
+    {
+        "id": "ff0aca701c876837",
+        "type": "debug",
+        "z": "1e28b70e014bb3c6",
+        "name": "msg",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "msg",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 530,
+        "y": 60,
+        "wires": []
+    }
+]
