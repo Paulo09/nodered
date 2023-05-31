@@ -1,0 +1,19 @@
+[
+    {
+        "id": "ff0aca701c876837",
+        "type": "debug",
+        "z": "1e28b70e014bb3c6",
+        "name": "msg",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 770,
+        "y": 60,
+        "wires": []
+    }
+]
